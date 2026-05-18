@@ -1,64 +1,109 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Davi Farias</title>
+    <title>Davi Farias | Desenvolvedor de Software</title>
     <link rel="shortcut icon" href="img/Logo.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playwrite+HU:wght@100..400&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Playwrite+HU:wght@100..400&display=swap" rel="stylesheet">
 </head>
-
 <body>
 
-    <header>
-
-<h1 class="topodavi">Davi Farias</h1>
-
-<div class="topobotoes">
-
-<a href="index.html"><h2 class="inicio">Inicio</h2></a>
-
-<a href="sobre.html"><h2 class="sobre">Sobre</h2></a>
-
-<a href="https://linktr.ee/DaviFariass?utm_source=linktree_admin_share"><h2 class="links">Links</h2></a>
-
-</div>
-
+    <header class="header-nav">
+        <h1 class="logo-text">Davi<span>Farias</span></h1>
+        <nav class="topobotoes">
+            <a href="#inicio" class="nav-link">Início</a>
+            <a href="#sobre" class="nav-link">Sobre</a>
+            <a href="#projetos" class="nav-link">Projetos</a>
+            <a href="https://linktr.ee/DaviFariass" target="_blank" class="nav-link destaque">Meus Links</a>
+        </nav>
     </header>
-    
-<div class="fotoetexto">
 
-<img src="img/fotodavi.jpg" alt="" class="imagemdavi">
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <div class="texto-hero">
+                <h3>Olá, mundo! Eu sou o</h3>
+                <h1 class="nome-destaque">Davi Farias</h1>
+                <h2 class="cargo-destaque">Desenvolvedor de Software Multiplataforma</h2>
+                <p>Estudante de tecnologia na Fatec focado na criação de soluções eficientes, interfaces modernas e no desenvolvimento Full Stack. Apaixonado por inovação e por transformar ideias em código.</p>
+                <a href="#sobre" class="btn-primary">Conheça minha jornada</a>
+            </div>
+            <div class="imagem-hero">
+                <div class="img-borda">
+                    <img src="img/fotodavi.jpg" alt="Foto de Davi Farias" class="imagemdavi">
+                </div>
+            </div>
+        </div>
+    </section>
 
-<div class="textoelogo">
-<img src="img/Logo.png" alt="" class="logoinicio">
+    <section id="sobre" class="sobre-mim">
+        <div class="container-sobre">
+            <div class="coluna-bio">
+                <h2 class="titulo-secao">Sobre Mim</h2>
+                <p>Sou um desenvolvedor em constante evolução, focado 100% na transição definitiva para o mercado de tecnologia. Atualmente cursando Desenvolvimento de Software Multiplataforma na Fatec, busco sempre aplicar o que aprendo na criação de sistemas reais.</p>
+                <p>Além da programação, gosto de explorar novas tendências tecnológicas, trabalhar com metodologias ágeis (Scrum) e contribuir com o desenvolvimento de ponta a ponta.</p>
+                
+                <div class="info-contato">
+                    <p>📍 <strong>Localização:</strong> São Paulo, SP</p>
+                    <p>✉️ <strong>Contato:</strong> davi.s.s.farias@hotmail.com</p>
+                </div>
+            </div>
 
-<div class="quadradoinicio">
-    <h3>Olá, eu sou Davi!</h3>
+            <div class="coluna-habilidades">
+                <h2 class="titulo-secao">Minha Stack & Habilidades</h2>
+                <div class="skills-grid">
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">PHP</span>
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">Java</span>
+                    <span class="skill-tag">MySQL / MongoDB</span>
+                    <span class="skill-tag">Scrum</span>
+                    <span class="skill-tag">HTML5 & CSS3</span>
+                    <span class="skill-tag">Adaptabilidade</span>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <p>Seja bem-vindo ao meu espaço na web! Aqui, você encontrará um pouco sobre mim. Sou auxiliar de produção e estou buscando entrar na área de tecnologia, sou apaixonado por inovação e programação.</p>
-</div>
-</div>
-</div>
+    <section id="projetos" class="meus-projetos">
+        <h2 class="titulo-secao text-center">Projetos em Destaque</h2>
+        <div class="cards-projetos">
+            
+            <div class="card">
+                <h3>Aruanã</h3>
+                <p>Plataforma web interdisciplinar voltada para pescadores. Atuei na criação de um chatbot utilizando a API do ChatGPT, além do suporte na modelagem do sistema em equipe.</p>
+                
+                <div style="margin-top: 20px; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.3);">
+                    <iframe width="100%" height="220" src="https://www.youtube.com/embed/z2SAfIHjYZk" title="Projeto Aruanã" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
 
-<footer>
+            <div class="card">
+                <h3>Conecta Fatec</h3>
+                <p>Desenvolvimento de uma rede social acadêmica focada em conectar estudantes da instituição, com implementação de sistemas de cadastro e gerenciamento (CRUD).</p>
+            </div>
 
-<div class="ajustelinkedin">
-    <img src="img/linkedinicon.png" alt="" class="iconlinkedin">
-    <a href="https://www.linkedin.com/in/davi-farias-097b5b216/"><h1 class="linkedin">Linkedin</h1></a>
-</div>
+        </div>
+    </section>
 
-<div class="ajustegithub">
-    <img src="img/iconegithub.png" alt="" class="icongit">
-    <a href="https://github.com/DaviFariass?utm_medium=social&utm_source=heylink.me"><h1 class="github">GitHub</h1></a>
-</div>
-
-</footer>
+    <footer>
+        <div class="footer-content">
+            <h2>Vamos construir algo juntos?</h2>
+            <div class="redes-sociais">
+                <a href="https://www.linkedin.com/in/davi-farias-097b5b216/" target="_blank" class="social-link">
+                    <img src="img/linkedinicon.png" alt="LinkedIn" class="icon"> LinkedIn
+                </a>
+                <a href="https://github.com/DaviFariass" target="_blank" class="social-link">
+                    <img src="img/iconegithub.png" alt="GitHub" class="icon"> GitHub
+                </a>
+            </div>
+            <p class="copyright">&copy; 2026 Davi Farias. Criado com dedicação e muito código.</p>
+        </div>
+    </footer>
 
 </body>
 </html>
