@@ -237,6 +237,7 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 30px;
+    padding: 30px;
 }
 
 .card {
@@ -329,3 +330,4 @@ footer {
         height: auto;
     }
 }
+

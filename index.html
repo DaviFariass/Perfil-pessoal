@@ -13,6 +13,7 @@
 </head>
 <body>
 
+    <!-- CABEÇALHO -->
     <header class="header-nav">
         <h1 class="logo-text">Davi<span>Farias</span></h1>
         <nav class="topobotoes">
@@ -23,6 +24,7 @@
         </nav>
     </header>
 
+    <!-- HERO / INÍCIO -->
     <section id="inicio" class="hero">
         <div class="hero-content">
             <div class="texto-hero">
@@ -40,6 +42,7 @@
         </div>
     </section>
 
+    <!-- SOBRE MIM -->
     <section id="sobre" class="sobre-mim">
         <div class="container-sobre">
             <div class="coluna-bio">
@@ -69,27 +72,173 @@
         </div>
     </section>
 
+    <!-- SEÇÃO DE PROJETOS -->
     <section id="projetos" class="meus-projetos">
+        
+        <!-- PROJETOS EM DESTAQUE (COM VÍDEO) -->
         <h2 class="titulo-secao text-center">Projetos em Destaque</h2>
         <div class="cards-projetos">
             
+            <!-- 1. ARUANÃ -->
             <div class="card">
-                <h3>Aruanã</h3>
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+                    <h3 style="margin: 0;">Aruanã</h3>
+                    <span style="font-size: 0.8rem; background: rgba(59, 130, 246, 0.2); color: #60a5fa; padding: 3px 8px; border-radius: 4px; font-weight: 600;">12/2023</span>
+                </div>
                 <p>Plataforma web interdisciplinar voltada para pescadores. Atuei na criação de um chatbot utilizando a API do ChatGPT, além do suporte na modelagem do sistema em equipe.</p>
                 
-                <div style="margin-top: 20px; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.3);">
-                    <iframe width="100%" height="220" src="https://www.youtube.com/embed/z2SAfIHjYZk" title="Projeto Aruanã" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <div style="margin-top: 15px; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.3); height: 220px; background: #000;">
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/z2SAfIHjYZk" title="Aruanã" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" style="display: block; width: 100%; height: 100%; border: 0;" allowfullscreen></iframe>
+                </div>
+
+                <div style="margin-top: 15px;">
+                    <a href="https://linktr.ee/aruana8" target="_blank" style="display: inline-block; padding: 8px 16px; background-color: #3b82f6; color: #ffffff; text-decoration: none; border-radius: 6px; font-weight: 600; font-size: 0.9rem;">Acessar Plataforma / Links ↗</a>
                 </div>
             </div>
 
+            <!-- 2. CONECTA FATEC -->
             <div class="card">
-                <h3>Conecta Fatec</h3>
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+                    <h3 style="margin: 0;">Conecta Fatec</h3>
+                    <span style="font-size: 0.8rem; background: rgba(59, 130, 246, 0.2); color: #60a5fa; padding: 3px 8px; border-radius: 4px; font-weight: 600;">06/2026</span>
+                </div>
                 <p>Desenvolvimento de uma rede social acadêmica focada em conectar estudantes da instituição, com implementação de sistemas de cadastro e gerenciamento (CRUD).</p>
+                
+                <div style="margin-top: 15px; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.3); height: 220px; background: #000;">
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/TXHYZd38gHM" title="Conecta Fatec" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" style="display: block; width: 100%; height: 100%; border: 0;" allowfullscreen></iframe>
+                </div>
+
+                <div style="margin-top: 15px;">
+                    <a href="https://conecta-frontend-bice.vercel.app/" target="_blank" style="display: inline-block; padding: 8px 16px; background-color: #3b82f6; color: #ffffff; text-decoration: none; border-radius: 6px; font-weight: 600; font-size: 0.9rem;">Acessar Aplicação (Vercel) ↗</a>
+                    <p style="font-size: 0.78rem; color: #94a3b8; margin-top: 6px; font-style: italic; line-height: 1.4;">*(Nota: O deploy pode estar temporariamente offline por economia de infraestrutura; veja a demonstração completa no vídeo acima).*</p>
+                </div>
             </div>
 
         </div>
+
+        <!-- OUTROS PROJETOS -->
+        <h2 class="titulo-secao text-center" style="margin-top: 70px;">Outros Projetos</h2>
+        
+        <!-- LINHA 1 DE OUTROS PROJETOS -->
+        <div class="cards-projetos">
+
+            <!-- 3. VOA PASSARINHO! -->
+            <div class="card">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+                    <h3 style="margin: 0;">Voa Passarinho! (Chroma Flap)</h3>
+                    <span style="font-size: 0.8rem; background: rgba(59, 130, 246, 0.2); color: #60a5fa; padding: 3px 8px; border-radius: 4px; font-weight: 600;">04/2026</span>
+                </div>
+                <p>Versão moderna do clássico Flappy Bird feita em JavaScript puro com a API HTML5 Canvas. Implementa física vetorial, cores HSL dinâmicas, parallax de nuvens e leaderboard com LocalStorage.</p>
+                
+                <div style="margin-top: 15px; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.3); height: 220px;">
+                    <img src="img/voa-passarinho.png" alt="Jogo Voa Passarinho" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+                </div>
+
+                <div style="margin-top: 15px;">
+                    <a href="https://davifariass.github.io/flappy-bird-game/bird-game/" target="_blank" style="display: inline-block; padding: 8px 16px; background-color: #3b82f6; color: #ffffff; text-decoration: none; border-radius: 6px; font-weight: 600; font-size: 0.9rem;">Jogar no Navegador 🎮</a>
+                </div>
+            </div>
+
+            <!-- 4. SOS TUBOS -->
+            <div class="card">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+                    <h3 style="margin: 0;">SOS Tubos</h3>
+                    <span style="font-size: 0.8rem; background: rgba(59, 130, 246, 0.2); color: #60a5fa; padding: 3px 8px; border-radius: 4px; font-weight: 600;">06/2025</span>
+                </div>
+                <p>Site institucional sob encomenda comercial para a SOS Tubos. Apresenta catálogo completo de produtos em tubos de papelão sustentáveis, responsividade e formulários de contato.</p>
+                
+                <div style="margin-top: 15px; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.3); height: 220px;">
+                    <img src="img/sos-tubos.jfif" alt="SOS Tubos" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+                </div>
+
+                <div style="margin-top: 15px;">
+                    <a href="https://davifariass.github.io/Projeto-SOS-tubos/" target="_blank" style="display: inline-block; padding: 8px 16px; background-color: #3b82f6; color: #ffffff; text-decoration: none; border-radius: 6px; font-weight: 600; font-size: 0.9rem;">Acessar Projeto ↗</a>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- LINHA 2 DE OUTROS PROJETOS -->
+        <div class="cards-projetos" style="margin-top: 25px;">
+
+            <!-- 5. PORSCHE -->
+            <div class="card">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+                    <h3 style="margin: 0;">Landing Page Porsche</h3>
+                    <span style="font-size: 0.8rem; background: rgba(59, 130, 246, 0.2); color: #60a5fa; padding: 3px 8px; border-radius: 4px; font-weight: 600;">03/2025</span>
+                </div>
+                <p>Landing page desenvolvida na faculdade focada na apresentação interativa de modelos, especificações mecânicas e aplicação prática de semântica HTML5, CSS Flexbox e Grid.</p>
+                
+                <div style="margin-top: 15px; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.3); height: 220px;">
+                    <img src="img/porsche.jfif" alt="Porsche" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+                </div>
+
+                <div style="margin-top: 15px;">
+                    <a href="https://davifariass.github.io/SitePorsche/" target="_blank" style="display: inline-block; padding: 8px 16px; background-color: #3b82f6; color: #ffffff; text-decoration: none; border-radius: 6px; font-weight: 600; font-size: 0.9rem;">Acessar Projeto ↗</a>
+                </div>
+            </div>
+
+            <!-- 6. NISPE -->
+            <div class="card">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+                    <h3 style="margin: 0;">Nispe</h3>
+                    <span style="font-size: 0.8rem; background: rgba(59, 130, 246, 0.2); color: #60a5fa; padding: 3px 8px; border-radius: 4px; font-weight: 600;">09/2023</span>
+                </div>
+                <p>Calculadora geométrica interativa com fórmulas integradas para cálculo de áreas e perímetros complexos, manipulação dinâmica do DOM e lógica matemática com JavaScript puro.</p>
+                
+                <div style="margin-top: 15px; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.3); height: 220px;">
+                    <img src="img/nispe.jfif" alt="Nispe" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+                </div>
+
+                <div style="margin-top: 15px;">
+                    <a href="https://formas-geom-tricas.vercel.app/" target="_blank" style="display: inline-block; padding: 8px 16px; background-color: #3b82f6; color: #ffffff; text-decoration: none; border-radius: 6px; font-weight: 600; font-size: 0.9rem;">Acessar Aplicação (Vercel) ↗</a>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- LINHA 3 DE OUTROS PROJETOS (FURIA + MARCO ZERO) -->
+        <div class="cards-projetos" style="margin-top: 25px;">
+
+            <!-- 7. FURIA ESPORTS -->
+            <div class="card">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+                    <h3 style="margin: 0;">FURIA Esports (Protótipo)</h3>
+                    <span style="font-size: 0.8rem; background: rgba(59, 130, 246, 0.2); color: #60a5fa; padding: 3px 8px; border-radius: 4px; font-weight: 600;">12/2024</span>
+                </div>
+                <p>Protótipo front-end de alta fidelidade desenvolvido em menos de um dia como desafio técnico de entrevista. Interface gamer com layout fluido, foco em UI/UX e total responsividade.</p>
+                
+                <div style="margin-top: 15px; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.3); height: 220px;">
+                    <img src="img/furia.jfif" alt="FURIA" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+                </div>
+
+                <div style="margin-top: 15px;">
+                    <a href="https://davifariass.github.io/prot-tipo-FURIA/" target="_blank" style="display: inline-block; padding: 8px 16px; background-color: #3b82f6; color: #ffffff; text-decoration: none; border-radius: 6px; font-weight: 600; font-size: 0.9rem;">Acessar Projeto ↗</a>
+                </div>
+            </div>
+
+            <!-- 8. PORTAL GAMER (MARCO ZERO) -->
+            <div class="card">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+                    <h3 style="margin: 0;">Portal Gamer (Marco Zero)</h3>
+                    <span style="font-size: 0.8rem; background: rgba(59, 130, 246, 0.2); color: #60a5fa; padding: 3px 8px; border-radius: 4px; font-weight: 600;">06/2023</span>
+                </div>
+                <p>Primeiro site desenvolvido na minha jornada em tecnologia. Portal estático com 10 artigos sobre games, preservado para registrar meu ponto de partida e demonstrar minha evolução técnica.</p>
+                
+                <div style="margin-top: 15px; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.3); height: 220px;">
+                    <img src="img/primeiroprojeto.jfif" alt="Portal Gamer Marco Zero" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+                </div>
+
+                <div style="margin-top: 15px;">
+                    <a href="https://davifariass.github.io/index/" target="_blank" style="display: inline-block; padding: 8px 16px; background-color: #3b82f6; color: #ffffff; text-decoration: none; border-radius: 6px; font-weight: 600; font-size: 0.9rem;">Acessar Projeto ↗</a>
+                </div>
+            </div>
+
+        </div>
+
     </section>
 
+    <!-- RODAPÉ -->
     <footer>
         <div class="footer-content">
             <h2>Vamos construir algo juntos?</h2>
