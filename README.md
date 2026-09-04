@@ -11,7 +11,7 @@ Seja bem-vindo ao meu espaço na web! Este é o repositório do meu portfólio p
 
 ## 🚀 Sobre Mim
 
-Sou o **Davi Farias**, tenho 20 anos e moro em São Paulo - SP. Atualmente, curso **Desenvolvimento de Software Multiplataforma na Fatec**, focando meus esforços e estudos na transição definitiva para o mercado de tecnologia como Desenvolvedor Full Stack.
+Sou o **Davi Farias**, tenho 21 anos e moro em São Paulo - SP. Atualmente, curso **Desenvolvimento de Software Multiplataforma na Fatec**, focando meus esforços e estudos na transição definitiva para o mercado de tecnologia como Desenvolvedor Full Stack.
 
 Sou apaixonado por inovação, programação e por encontrar soluções eficientes para problemas reais através do código.
 
