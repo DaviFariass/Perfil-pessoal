@@ -5,7 +5,7 @@
 
 Seja bem-vindo ao meu espaço na web! Este é o repositório do meu portfólio pessoal, projetado para centralizar minha trajetória acadêmica, minhas habilidades técnicas e os principais projetos que venho desenvolvendo na área de tecnologia.
 
-🌍 **Acesse o site rodando:** [Clique aqui para ver o meu Portfólio]([https://davifariass.github.io/](https://davifariass.github.io/Perfil-pessoal/))
+🌍 **Acesse o site rodando:** https://davifariass.github.io/Perfil-pessoal/
 
 ---
 
